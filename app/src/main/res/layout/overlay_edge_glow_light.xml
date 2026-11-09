@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Ultra-minimal edge glow: 4 thin lines only, single color, no gradients -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/edge_top"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_gravity="top"
+        android:background="#1E88E5" />
+
+    <View
+        android:id="@+id/edge_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_gravity="bottom"
+        android:background="#1E88E5" />
+
+    <View
+        android:id="@+id/edge_left"
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:background="#1E88E5" />
+
+    <View
+        android:id="@+id/edge_right"
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:background="#1E88E5" />
+
+</FrameLayout>

@@ -1,0 +1,1 @@
+Initial commit: Voice Assistant Android app with native C JNI, overlay, hotkey, screen capture, Piper TTS, Whisper STT

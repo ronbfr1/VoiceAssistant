@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Minimal expanded panel: no shadows, no complex backgrounds -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="@drawable/overlay_expanded_background_light">
+
+    <!-- Single row: mic + close -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingBottom="8dp">
+
+        <ImageView
+            android:id="@+id/overlay_mic_button"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:src="@drawable/ic_mic_off_light"
+            android:contentDescription="@string/mic_ready"
+            android:background="@drawable/mic_button_background_light"
+            android:padding="12dp" />
+
+        <Space android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/overlay_close_button"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:src="@drawable/ic_close_light"
+            android:contentDescription="Закрыть"
+            android:padding="4dp" />
+    </LinearLayout>
+
+</LinearLayout>

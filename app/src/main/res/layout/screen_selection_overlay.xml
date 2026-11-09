@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+    <!-- Selection canvas (draws the rectangle) -->
+    <com.example.voiceassistant.screen.ScreenCaptureService$SelectionCanvasView
+        android:id="@+id/selection_canvas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- Top instruction bar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/selection_instruction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/region_selection_instruction"
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:background="#CC000000"
+            android:padding="12dp"
+            android:layout_margin="16dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <!-- Bottom action buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="24dp"
+        android:layout_marginBottom="48dp">
+
+        <ImageView
+            android:id="@+id/selection_cancel"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:src="@drawable/ic_close_light"
+            android:contentDescription="Отмена"
+            android:background="@drawable/selection_button_background"
+            android:padding="16dp"
+            android:layout_marginEnd="16dp" />
+
+        <ImageView
+            android:id="@+id/selection_confirm"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:src="@drawable/ic_check_light"
+            android:contentDescription="Подтвердить"
+            android:background="@drawable/selection_button_background_primary"
+            android:padding="16dp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</FrameLayout>

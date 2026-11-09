@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Voice Assistant</string>
+    
+    <!-- Microphone -->
+    <string name="mic_listening">Прослушивание...</string>
+    <string name="mic_ready">Нажми, чтобы говорить</string>
+    <string name="error_permission">Нет разрешения на микрофон</string>
+    <string name="error_network">Ошибка сети</string>
+    <string name="error_no_match">Не удалось распознать</string>
+    
+    <!-- Overlay / Floating Bubble -->
+    <string name="overlay_permission_title">Разрешение на отображение поверх других приложений</string>
+    <string name="overlay_permission_description">Для работы пузырька-ассистента нужно разрешение \"Отображаться поверх других приложений\".</string>
+    <string name="overlay_bubble_collapsed">Ассистент</string>
+    <string name="overlay_bubble_expanded">Голосовой ассистент\nНажми, чтобы говорить</string>
+    <string name="overlay_listening">🎤 Слушаю…</string>
+    <string name="overlay_thinking">🤔 Думаю…</string>
+    <string name="overlay_speaking">🔊 Говорю…</string>
+    
+    <!-- Accessibility Service / Hotkey -->
+    <string name="accessibility_service_name">Voice Assistant Hotkey</string>
+    <string name="accessibility_service_description">Глобальное сочетание клавиш для вызова ассистента (например, Win+Space или долгое нажатие кнопки питания)</string>
+    <string name="hotkey_triggered">Хоткей сработал! Ассистент активирован.</string>
+    <string name="hotkey_settings_title">Настройка хоткея</string>
+    <string name="hotkey_settings_summary">Выберите сочетание клавиш для вызова ассистента</string>
+    
+    <!-- Screen Capture / Region Selection -->
+    <string name="screen_capture_permission_title">Разрешение на захват экрана</string>
+    <string name="screen_capture_permission_description">Для функции \"Выделить область экрана\" нужно разрешение на запись экрана.</string>
+    <string name="region_selection_title">Выделите область экрана</string>
+    <string name="region_selection_instruction">Перетащите пальцем для выбора области. Ассистент поможет с содержимым выделенной зоны.</string>
+    <string name="region_selected">Область выбрана. Отправляю ассистенту…</string>
+    <string name="screen_edge_glow_active">Обводка экрана активна</string>
+    
+    <!-- TTS Engines -->
+    <string name="tts_engine_name">Piper TTS (Офлайн)</string>
+    <string name="tts_engine_cloud_name">Cloud TTS (Онлайн)</string>
+    <string name="tts_settings_title">Движок синтеза речи</string>
+    <string name="tts_settings_summary">Выберите движок: Piper (офлайн, быстро) или Cloud (качественнее)</string>
+    <string name="tts_piper_model_download">Скачивание модели Piper…</string>
+    <string name="tts_piper_model_ready">Модель Piper готова</string>
+    
+    <!-- STT Engines -->
+    <string name="stt_engine_name">Whisper.cpp (Офлайн)</string>
+    <string name="stt_engine_cloud_name">Cloud STT (Онлайн)</string>
+    <string name="stt_settings_title">Движок распознавания речи</string>
+    <string name="stt_settings_summary">Выберите движок: Whisper.cpp (офлайн, приватно) или Cloud (точнее)</string>
+    <string name="stt_whisper_model_download">Скачивание модели Whisper…</string>
+    <string name="stt_whisper_model_ready">Модель Whisper готова</string>
+    
+    <!-- General Settings -->
+    <string name="settings_title">Настройки Voice Assistant</string>
+    <string name="settings_overlay">Пузырек-ассистент (Overlay)</string>
+    <string name="settings_hotkey">Глобальный хоткей</string>
+    <string name="settings_screen_capture">Выделение области экрана</string>
+    <string name="settings_tts">Синтез речи (TTS)</string>
+    <string name="settings_stt">Распознавание речи (STT)</string>
+    <string name="settings_privacy">Приватность: всё офлайн</string>
+    <string name="settings_about">О приложении</string>
+</resources>

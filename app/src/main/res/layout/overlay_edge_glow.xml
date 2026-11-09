@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp">
+
+    <!-- Top edge glow -->
+    <View
+        android:id="@+id/edge_glow_top"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_gravity="top"
+        android:background="@drawable/edge_glow_gradient_vertical" />
+
+    <!-- Bottom edge glow -->
+    <View
+        android:id="@+id/edge_glow_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/edge_glow_gradient_vertical_reverse" />
+
+    <!-- Left edge glow -->
+    <View
+        android:id="@+id/edge_glow_left"
+        android:layout_width="4dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:background="@drawable/edge_glow_gradient_horizontal" />
+
+    <!-- Right edge glow -->
+    <View
+        android:id="@+id/edge_glow_right"
+        android:layout_width="4dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:background="@drawable/edge_glow_gradient_horizontal_reverse" />
+
+    <!-- Corner glows for extra effect -->
+    <View
+        android:id="@+id/edge_glow_tl"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_gravity="top|left"
+        android:background="@drawable/edge_glow_corner_tl" />
+
+    <View
+        android:id="@+id/edge_glow_tr"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_gravity="top|right"
+        android:background="@drawable/edge_glow_corner_tr" />
+
+    <View
+        android:id="@+id/edge_glow_bl"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_gravity="bottom|left"
+        android:background="@drawable/edge_glow_corner_bl" />
+
+    <View
+        android:id="@+id/edge_glow_br"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_gravity="bottom|right"
+        android:background="@drawable/edge_glow_corner_br" />
+
+</FrameLayout>

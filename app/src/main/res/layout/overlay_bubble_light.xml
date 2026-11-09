@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Ultra-minimal: single ImageView, no nested layouts, no text -->
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bubble_image"
+    android:layout_width="56dp"
+    android:layout_height="56dp"
+    android:src="@drawable/ic_assistant_idle_light"
+    android:contentDescription="@string/app_name"
+    android:background="@drawable/bubble_background_light"
+    android:scaleType="centerInside" />
